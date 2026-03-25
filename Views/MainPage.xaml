@@ -1,31 +1,71 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Flashcard_Mobile.MainPage">
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:Flashcard_Mobile.Models"
+    x:Class="Flashcard_Mobile.Views.MainPage"
+    x:Name="PageRoot"
+    BackgroundColor="Black">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+    <Grid RowDefinitions="Auto,*" Padding="20,20,20,0" RowSpacing="16">
+        <Label
+            Grid.Row="0"
+            Text="Home"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"
+            Margin="0,0,0,8" />
 
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+        <CollectionView
+            Grid.Row="1"
+            ItemsSource="{Binding Decks}"
+            SelectionMode="None"
+            BackgroundColor="Transparent">
 
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Deck">
+                    <Frame
+                        Padding="14"
+                        Margin="0,0,0,14"
+                        HasShadow="False">
 
-            
-        </VerticalStackLayout>
-    </ScrollView>
+                        <VerticalStackLayout Spacing="8">
+                            <Label
+                                Text="{Binding Title}"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                TextColor="Black" />
 
+                            <Label
+                                Text="{Binding WordsCountText}"
+                                FontSize="12"
+                                TextColor="{StaticResource Gray500}" />
+
+                            <Grid
+                                ColumnDefinitions="*,*"
+                                ColumnSpacing="12"
+                                Margin="0,14,0,0">
+
+                                <Button
+                                    Grid.Column="0"
+                                    Text="Modifier"
+                                    BackgroundColor="{StaticResource Gray600}"
+                                    TextColor="White"
+                                    Command="{Binding Source={x:Reference PageRoot}, Path=BindingContext.ModifyDeckCommand}"
+                                    CommandParameter="{Binding .}" />
+
+                                <Button
+                                    Grid.Column="1"
+                                    Text="Supprimer"
+                                    BackgroundColor="{StaticResource Tertiary}"
+                                    TextColor="White"
+                                    Command="{Binding Source={x:Reference PageRoot}, Path=BindingContext.DeleteDeckCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\Flashcard-Mobile.csproj": {}
+    "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Flashcard-Mobile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\Flashcard-Mobile.csproj": {
+    "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Flashcard-Mobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
+        "projectUniqueName": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
         "projectName": "Flashcard-Mobile",
-        "projectPath": "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
+        "projectPath": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
         "packagesPath": "C:\\Users\\pd01wvj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\obj\\",
+        "outputPath": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

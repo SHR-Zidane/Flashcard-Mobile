@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CwEmV/1SUA8=",
+  "dgSpecHash": "dijQHT0I7qY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pd01wvj\\source\\repos\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
+  "projectFilePath": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Flashcard-Mobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pd01wvj\\.nuget\\packages\\googlegson\\2.11.0.5\\googlegson.2.11.0.5.nupkg.sha512",
     "C:\\Users\\pd01wvj\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
