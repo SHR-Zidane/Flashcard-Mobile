@@ -15,6 +15,7 @@ public class MainPageViewModel
     public ICommand ModifyDeckCommand { get; }
     public ICommand DeleteDeckCommand { get; }
     public ICommand AddDeckCommand { get; }
+    public ICommand OpenDeckCommand { get; }
 
     public MainPageViewModel()
     {
@@ -29,6 +30,14 @@ public class MainPageViewModel
                 return;
 
             await Shell.Current.GoToAsync($"{nameof(DeckFormPage)}?deckId={deck.Id}");
+        });
+
+        OpenDeckCommand = new Command<Deck>(async deck =>
+        {
+            if (deck is null)
+                return;
+
+            await Shell.Current.GoToAsync($"{nameof(DeckDetailsPage)}?deckId={deck.Id}");
         });
 
         DeleteDeckCommand = new Command<Deck>(async deck =>

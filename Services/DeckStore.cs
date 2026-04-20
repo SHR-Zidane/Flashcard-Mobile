@@ -33,7 +33,8 @@ public sealed class DeckStore
             Title = title.Trim(),
             ListName = string.IsNullOrWhiteSpace(listName) ? "General" : listName.Trim(),
             WordsCount = wordsCount,
-            IsDeleted = false
+            IsDeleted = false,
+            Flashcards = new List<Flashcard>()
         };
 
         _allDecks.Add(deck);
@@ -54,7 +55,8 @@ public sealed class DeckStore
             Title = title.Trim(),
             ListName = string.IsNullOrWhiteSpace(listName) ? "General" : listName.Trim(),
             WordsCount = wordsCount,
-            IsDeleted = false
+            IsDeleted = false,
+            Flashcards = deck.Flashcards
         };
 
         var allDeckIndex = _allDecks.IndexOf(deck);
@@ -86,10 +88,57 @@ public sealed class DeckStore
         if (_allDecks.Count > 0)
             return;
 
-        _allDecks.Add(new Deck { Title = "German Vocabulary", ListName = "Languages", WordsCount = 200 });
-        _allDecks.Add(new Deck { Title = "English Vocabulary", ListName = "Languages", WordsCount = 180 });
-        _allDecks.Add(new Deck { Title = "French Vocabulary", ListName = "Languages", WordsCount = 160 });
-        _allDecks.Add(new Deck { Title = "Spanish Vocabulary", ListName = "Languages", WordsCount = 140 });
+        _allDecks.Add(new Deck
+        {
+            Title = "German Vocabulary",
+            ListName = "Languages",
+            Flashcards = new List<Flashcard>
+            {
+                new() { Front = "Hallo", Back = "Hello" },
+                new() { Front = "Danke", Back = "Thank you" },
+                new() { Front = "Auf Wiedersehen", Back = "Goodbye" }
+            },
+            WordsCount = 3
+        });
+
+        _allDecks.Add(new Deck
+        {
+            Title = "English Vocabulary",
+            ListName = "Languages",
+            Flashcards = new List<Flashcard>
+            {
+                new() { Front = "Apple", Back = "Pomme" },
+                new() { Front = "Book", Back = "Livre" },
+                new() { Front = "House", Back = "Maison" }
+            },
+            WordsCount = 3
+        });
+
+        _allDecks.Add(new Deck
+        {
+            Title = "French Vocabulary",
+            ListName = "Languages",
+            Flashcards = new List<Flashcard>
+            {
+                new() { Front = "Bonjour", Back = "Hello" },
+                new() { Front = "Chat", Back = "Cat" },
+                new() { Front = "Voiture", Back = "Car" }
+            },
+            WordsCount = 3
+        });
+
+        _allDecks.Add(new Deck
+        {
+            Title = "Spanish Vocabulary",
+            ListName = "Languages",
+            Flashcards = new List<Flashcard>
+            {
+                new() { Front = "Hola", Back = "Hello" },
+                new() { Front = "Gracias", Back = "Thank you" },
+                new() { Front = "Casa", Back = "House" }
+            },
+            WordsCount = 3
+        });
         Save();
     }
 
@@ -125,6 +174,10 @@ public sealed class DeckStore
 
             _allDecks.Clear();
             _allDecks.AddRange(loadedDecks);
+            foreach (var deck in _allDecks)
+            {
+                deck.Flashcards ??= new List<Flashcard>();
+            }
         }
         catch
         {

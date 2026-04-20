@@ -34,6 +34,11 @@
                     <Frame
                         Padding="14"
                         Margin="0,0,0,14">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={x:Reference PageRoot}, Path=BindingContext.OpenDeckCommand}"
+                                CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
 
                         <VerticalStackLayout Spacing="8">
                             <Label
