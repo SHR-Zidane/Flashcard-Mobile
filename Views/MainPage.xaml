@@ -6,6 +6,13 @@
     x:Class="Flashcard_Mobile.Views.MainPage"
     x:Name="PageRoot"
     BackgroundColor="Black">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add"
+            Priority="0"
+            Order="Primary"
+            Command="{Binding AddDeckCommand}" />
+    </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="Auto,*" Padding="20,20,20,0" RowSpacing="16">
         <Label
@@ -34,6 +41,11 @@
                                 FontAttributes="Bold"
                                 FontSize="14"
                                 TextColor="Black" />
+
+                            <Label
+                                Text="{Binding ListName}"
+                                FontSize="12"
+                                TextColor="{StaticResource Gray700}" />
 
                             <Label
                                 Text="{Binding WordsCountText}"

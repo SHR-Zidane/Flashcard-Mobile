@@ -2,31 +2,50 @@ using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Microsoft.Maui.Controls;
 using Flashcard_Mobile.Models;
+using Flashcard_Mobile.Services;
+using Flashcard_Mobile.Views;
 
 namespace Flashcard_Mobile.ViewModels;
 
 public class MainPageViewModel
 {
-    public ObservableCollection<Deck> Decks { get; } = new();
+    private readonly DeckStore _deckStore = DeckStore.Instance;
+    public ObservableCollection<Deck> Decks => _deckStore.Decks;
 
     public ICommand ModifyDeckCommand { get; }
     public ICommand DeleteDeckCommand { get; }
+    public ICommand AddDeckCommand { get; }
 
     public MainPageViewModel()
     {
-        // Données de démo pour remplir la home.
-        Decks.Add(new Deck { Title = "German Vocabulary, Vocabulaire / apprendre", WordsCount = 200 });
-        Decks.Add(new Deck { Title = "English Vocabulary, Vocabulaire / apprendre", WordsCount = 180 });
-        Decks.Add(new Deck { Title = "French Vocabulary, Vocabulaire / apprendre", WordsCount = 160 });
-        Decks.Add(new Deck { Title = "Spanish Vocabulary, Vocabulaire / apprendre", WordsCount = 140 });
+        AddDeckCommand = new Command(async () =>
+        {
+            await Shell.Current.GoToAsync(nameof(DeckFormPage));
+        });
 
-        ModifyDeckCommand = new Command<Deck>(deck => { /* TODO: Navigation vers l'écran de modification */ });
-        DeleteDeckCommand = new Command<Deck>(deck =>
+        ModifyDeckCommand = new Command<Deck>(async deck =>
         {
             if (deck is null)
                 return;
 
-            Decks.Remove(deck);
+            await Shell.Current.GoToAsync($"{nameof(DeckFormPage)}?deckId={deck.Id}");
+        });
+
+        DeleteDeckCommand = new Command<Deck>(async deck =>
+        {
+            if (deck is null)
+                return;
+
+            var shouldDelete = await Shell.Current.DisplayAlert(
+                "Delete deck",
+                $"Delete '{deck.Title}'?",
+                "Delete",
+                "Cancel");
+
+            if (!shouldDelete)
+                return;
+
+            _deckStore.Delete(deck.Id);
         });
     }
 }
