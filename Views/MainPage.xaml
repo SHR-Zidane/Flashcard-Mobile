@@ -45,7 +45,7 @@
                             <Label
                                 Text="{Binding ListName}"
                                 FontSize="12"
-                                TextColor="{StaticResource Gray700}" />
+                                TextColor="{StaticResource Gray600}" />
 
                             <Label
                                 Text="{Binding WordsCountText}"

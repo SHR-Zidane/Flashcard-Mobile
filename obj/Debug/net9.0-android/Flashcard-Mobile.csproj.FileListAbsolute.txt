@@ -1883,11 +1883,6 @@ C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\stam
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
-C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\Flashcar.7B2792A0.Up2Date
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\resizetizer\r\drawable\heart_icon.png
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\resizetizer\r\drawable\home_icon.png
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\resizetizer\r\drawable\search_icon.png
@@ -2323,3 +2318,8 @@ C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\andr
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\android\marshal_methods.x86_64.o
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\android\jni_remap.x86_64.o
 C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+C:\Users\pd01wvj\Documents\Github\Flashcard-Mobile\obj\Debug\net9.0-android\Flashcar.7B2792A0.Up2Date
