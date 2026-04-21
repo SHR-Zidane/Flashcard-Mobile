@@ -1,4 +1,6 @@
 using Flashcard_Mobile.Services;
+using Flashcard_Mobile.ViewModels;
+using Flashcard_Mobile.Models;
 
 namespace Flashcard_Mobile.Views;
 
@@ -6,6 +8,8 @@ namespace Flashcard_Mobile.Views;
 public partial class DeckDetailsPage : ContentPage
 {
     private readonly DeckStore _deckStore = DeckStore.Instance;
+    private readonly DeckDetailsViewModel _viewModel;
+    private Guid _deckId;
 
     public string DeckId
     {
@@ -13,26 +17,42 @@ public partial class DeckDetailsPage : ContentPage
         {
             if (!Guid.TryParse(value, out var id))
             {
+                _deckId = Guid.Empty;
                 return;
             }
 
+            _deckId = id;
             var deck = _deckStore.GetById(id);
             if (deck is null)
             {
                 DeckTitleLabel.Text = "Deck not found";
-                FlashcardsCountLabel.Text = string.Empty;
-                FlashcardsView.ItemsSource = null;
+                _viewModel.SetDeck(new Deck()); // empty
                 return;
             }
 
             DeckTitleLabel.Text = deck.Title;
-            FlashcardsCountLabel.Text = $"{deck.Flashcards.Count} flashcards";
-            FlashcardsView.ItemsSource = deck.Flashcards;
+            _viewModel.SetDeck(deck);
         }
     }
 
     public DeckDetailsPage()
     {
         InitializeComponent();
+        _viewModel = new DeckDetailsViewModel();
+        BindingContext = _viewModel;
+        FlashcardsView.ItemsSource = _viewModel.Flashcards;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        if (_deckId != Guid.Empty)
+        {
+            var deck = _deckStore.GetById(_deckId);
+            if (deck != null)
+            {
+                _viewModel.SetDeck(deck);
+            }
+        }
     }
 }

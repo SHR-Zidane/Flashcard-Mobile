@@ -83,6 +83,57 @@ public sealed class DeckStore
         return true;
     }
 
+    public Flashcard? AddFlashcard(Guid deckId, string front, string back)
+    {
+        var deck = _allDecks.FirstOrDefault(d => d.Id == deckId && !d.IsDeleted);
+        if (deck is null)
+            return null;
+
+        var flashcard = new Flashcard
+        {
+            Id = Guid.NewGuid(),
+            Front = front.Trim(),
+            Back = back.Trim()
+        };
+
+        deck.Flashcards.Add(flashcard);
+        deck.WordsCount = deck.Flashcards.Count;
+        Save();
+        return flashcard;
+    }
+
+    public bool UpdateFlashcard(Guid deckId, Guid flashcardId, string front, string back)
+    {
+        var deck = _allDecks.FirstOrDefault(d => d.Id == deckId && !d.IsDeleted);
+        if (deck is null)
+            return false;
+
+        var flashcard = deck.Flashcards.FirstOrDefault(f => f.Id == flashcardId);
+        if (flashcard is null)
+            return false;
+
+        flashcard.Front = front.Trim();
+        flashcard.Back = back.Trim();
+        Save();
+        return true;
+    }
+
+    public bool DeleteFlashcard(Guid deckId, Guid flashcardId)
+    {
+        var deck = _allDecks.FirstOrDefault(d => d.Id == deckId && !d.IsDeleted);
+        if (deck is null)
+            return false;
+
+        var flashcard = deck.Flashcards.FirstOrDefault(f => f.Id == flashcardId);
+        if (flashcard is null)
+            return false;
+
+        deck.Flashcards.Remove(flashcard);
+        deck.WordsCount = deck.Flashcards.Count;
+        Save();
+        return true;
+    }
+
     private void SeedIfEmpty()
     {
         if (_allDecks.Count > 0)

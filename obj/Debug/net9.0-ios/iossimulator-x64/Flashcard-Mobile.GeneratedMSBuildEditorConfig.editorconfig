@@ -42,11 +42,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/DeckDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.DeckDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DeckDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DeckDetailsPage.xaml
+
+[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/DeckFormPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.DeckFormPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DeckFormPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DeckFormPage.xaml
+
 [C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/FavoritesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.FavoritesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FavoritesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FavoritesPage.xaml
+
+[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/FlashcardFormPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.FlashcardFormPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlashcardFormPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlashcardFormPage.xaml
 
 [C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

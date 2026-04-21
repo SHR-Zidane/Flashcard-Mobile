@@ -41,7 +41,7 @@ public partial class DeckFormPage : ContentPage
             DeleteButton.IsVisible = false;
             NameEntry.Text = string.Empty;
             ListEntry.Text = string.Empty;
-            WordsCountEntry.Text = "0";
+            WordsCountLabel.Text = "0";
             return;
         }
 
@@ -50,7 +50,7 @@ public partial class DeckFormPage : ContentPage
         DeleteButton.IsVisible = true;
         NameEntry.Text = _currentDeck.Title;
         ListEntry.Text = _currentDeck.ListName;
-        WordsCountEntry.Text = _currentDeck.WordsCount.ToString();
+        WordsCountLabel.Text = _currentDeck.Flashcards.Count.ToString();
     }
 
     private async void OnCancelClicked(object sender, EventArgs e)
@@ -68,15 +68,15 @@ public partial class DeckFormPage : ContentPage
         }
 
         var listName = ListEntry.Text?.Trim() ?? string.Empty;
-        var parsedCount = int.TryParse(WordsCountEntry.Text, out var count) ? Math.Max(0, count) : 0;
+        var wordsCount = _currentDeck is null ? 0 : _currentDeck.Flashcards.Count;
 
         if (_currentDeck is null)
         {
-            _deckStore.Create(title, listName, parsedCount);
+            _deckStore.Create(title, listName, wordsCount);
         }
         else
         {
-            _deckStore.Update(_currentDeck.Id, title, listName, parsedCount);
+            _deckStore.Update(_currentDeck.Id, title, listName, wordsCount);
         }
 
         await Shell.Current.GoToAsync("..");

@@ -23,10 +23,14 @@
                     <Entry x:Name="ListEntry" Placeholder="List name" />
 
                     <Label Text="Words count" FontSize="14" TextColor="Black" Margin="0,8,0,0" />
-                    <Entry
-                        x:Name="WordsCountEntry"
-                        Placeholder="0"
-                        Keyboard="Numeric" />
+                    <Label
+                        x:Name="WordsCountLabel"
+                        Text="0"
+                        FontSize="16"
+                        TextColor="Black"
+                        BackgroundColor="#FFFFFF"
+                        Padding="10,8"
+                        HorizontalOptions="Fill" />
                 </VerticalStackLayout>
             </Frame>
 

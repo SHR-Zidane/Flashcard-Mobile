@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Flashcard_Mobile.Views;
 
 namespace Flashcard_Mobile
 {
@@ -18,6 +19,10 @@ namespace Flashcard_Mobile
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            // Register routes for pages not in Shell
+            Routing.RegisterRoute(nameof(DeckFormPage), typeof(DeckFormPage));
+            Routing.RegisterRoute(nameof(FlashcardFormPage), typeof(FlashcardFormPage));
 
             return builder.Build();
         }

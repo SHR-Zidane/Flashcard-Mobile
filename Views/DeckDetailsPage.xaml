@@ -5,6 +5,13 @@
     xmlns:models="clr-namespace:Flashcard_Mobile.Models"
     x:Class="Flashcard_Mobile.Views.DeckDetailsPage"
     BackgroundColor="Black">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add"
+            Priority="0"
+            Order="Primary"
+            Command="{Binding AddFlashcardCommand}" />
+    </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="Auto,Auto,*" Padding="20,20,20,0" RowSpacing="10">
         <Label
@@ -16,8 +23,8 @@
             TextColor="White" />
 
         <Label
-            x:Name="FlashcardsCountLabel"
             Grid.Row="1"
+            Text="{Binding FlashcardsCountText}"
             TextColor="{StaticResource Gray300}" />
 
         <CollectionView
@@ -28,17 +35,33 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:Flashcard">
                     <Frame Padding="12" Margin="0,0,0,10">
-                        <VerticalStackLayout Spacing="6">
-                            <Label
-                                Text="{Binding Front}"
-                                FontSize="16"
-                                FontAttributes="Bold"
-                                TextColor="Black" />
-                            <Label
-                                Text="{Binding Back}"
-                                FontSize="14"
-                                TextColor="{StaticResource Gray600}" />
-                        </VerticalStackLayout>
+                        <Grid ColumnDefinitions="*,Auto">
+                            <VerticalStackLayout Grid.Column="0" Spacing="6">
+                                <Label
+                                    Text="{Binding Front}"
+                                    FontSize="16"
+                                    FontAttributes="Bold"
+                                    TextColor="Black" />
+                                <Label
+                                    Text="{Binding Back}"
+                                    FontSize="14"
+                                    TextColor="{StaticResource Gray600}" />
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="1" Spacing="5">
+                                <Button
+                                    Text="Edit"
+                                    BackgroundColor="{StaticResource Tertiary}"
+                                    TextColor="White"
+                                    Command="{Binding Source={x:Reference FlashcardsView}, Path=BindingContext.EditFlashcardCommand}"
+                                    CommandParameter="{Binding .}" />
+                                <Button
+                                    Text="Delete"
+                                    BackgroundColor="{StaticResource Tertiary}"
+                                    TextColor="White"
+                                    Command="{Binding Source={x:Reference FlashcardsView}, Path=BindingContext.DeleteFlashcardCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </VerticalStackLayout>
+                        </Grid>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
