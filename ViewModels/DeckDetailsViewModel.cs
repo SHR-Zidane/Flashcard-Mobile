@@ -19,6 +19,7 @@ public class DeckDetailsViewModel : BindableObject
     public ICommand AddFlashcardCommand { get; }
     public ICommand EditFlashcardCommand { get; }
     public ICommand DeleteFlashcardCommand { get; }
+    public ICommand StudyCommand { get; }
 
     public DeckDetailsViewModel()
     {
@@ -55,6 +56,14 @@ public class DeckDetailsViewModel : BindableObject
             _deckStore.DeleteFlashcard(_deck.Id, flashcard.Id);
             Flashcards.Remove(flashcard);
             OnPropertyChanged(nameof(FlashcardsCountText));
+        });
+
+        StudyCommand = new Command(async () =>
+        {
+            if (_deck is null)
+                return;
+
+            await Shell.Current.GoToAsync($"{nameof(StudyPage)}?deckId={_deck.Id}");
         });
     }
 

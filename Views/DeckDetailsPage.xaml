@@ -11,6 +11,11 @@
             Priority="0"
             Order="Primary"
             Command="{Binding AddFlashcardCommand}" />
+        <ToolbarItem
+            Text="Étudier"
+            Priority="1"
+            Order="Primary"
+            Command="{Binding StudyCommand}" />
     </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="Auto,Auto,*" Padding="20,20,20,0" RowSpacing="10">

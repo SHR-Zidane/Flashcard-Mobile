@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
+
 [C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/DeckDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.DeckDetailsPage.xaml
@@ -72,14 +78,14 @@ build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.Mai
 build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
-[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/ProfilePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.ProfilePage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
-
 [C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/SearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
+
+[C:/Users/pd01wvj/Documents/Github/Flashcard-Mobile/Views/StudyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Flashcard_Mobile.Views.StudyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudyPage.xaml

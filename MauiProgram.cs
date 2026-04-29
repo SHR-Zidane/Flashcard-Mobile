@@ -23,6 +23,7 @@ namespace Flashcard_Mobile
             // Register routes for pages not in Shell
             Routing.RegisterRoute(nameof(DeckFormPage), typeof(DeckFormPage));
             Routing.RegisterRoute(nameof(FlashcardFormPage), typeof(FlashcardFormPage));
+            Routing.RegisterRoute(nameof(StudyPage), typeof(StudyPage));
 
             return builder.Build();
         }

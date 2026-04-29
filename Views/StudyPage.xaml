@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Flashcard_Mobile.Views.StudyPage"
+    BackgroundColor="Black">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Quitter"
+            Priority="0"
+            Order="Primary"
+            Command="{Binding QuitCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <Grid RowDefinitions="*,Auto,Auto" Padding="20">
+        <!-- Card Display -->
+        <Frame
+            Grid.Row="0"
+            BackgroundColor="#F0F0F0"
+            CornerRadius="10"
+            Margin="0,20"
+            VerticalOptions="Center">
+            <Grid RowDefinitions="*,Auto" VerticalOptions="Center">
+                <!-- Front Side -->
+                <Label
+                    Grid.Row="0"
+                    x:Name="FrontLabel"
+                    Text="{Binding CurrentFront}"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsVisible="{Binding ShowFront}" />
+
+                <!-- Back Side -->
+                <Label
+                    Grid.Row="0"
+                    x:Name="BackLabel"
+                    Text="{Binding CurrentBack}"
+                    FontSize="20"
+                    TextColor="{StaticResource Gray600}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsVisible="{Binding ShowAnswer}" />
+
+                <!-- Tap to reveal -->
+                <Label
+                    Grid.Row="1"
+                    Text="Appuyez pour voir la réponse"
+                    FontSize="14"
+                    TextColor="{StaticResource Gray500}"
+                    HorizontalOptions="Center"
+                    Margin="0,10,0,0"
+                    IsVisible="{Binding ShowFront}" />
+            </Grid>
+
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ShowAnswerCommand}" />
+            </Frame.GestureRecognizers>
+        </Frame>
+
+        <!-- Answer Buttons -->
+        <Grid
+            Grid.Row="1"
+            ColumnDefinitions="*,*"
+            ColumnSpacing="20"
+            Margin="0,0,0,20"
+            IsVisible="{Binding ShowButtons}">
+            <Button
+                Grid.Column="0"
+                Text="Correct"
+                BackgroundColor="{StaticResource Tertiary}"
+                TextColor="White"
+                Command="{Binding CorrectCommand}"
+                HeightRequest="50" />
+            <Button
+                Grid.Column="1"
+                Text="Faux"
+                BackgroundColor="{StaticResource Gray500}"
+                TextColor="White"
+                Command="{Binding IncorrectCommand}"
+                HeightRequest="50" />
+        </Grid>
+
+        <!-- Result -->
+        <VerticalStackLayout
+            Grid.Row="2"
+            IsVisible="{Binding ShowResult}"
+            Spacing="20">
+            <Label
+                Text="{Binding ResultText}"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Recommencer"
+                BackgroundColor="{StaticResource Tertiary}"
+                TextColor="White"
+                Command="{Binding RestartCommand}"
+                HeightRequest="50" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
