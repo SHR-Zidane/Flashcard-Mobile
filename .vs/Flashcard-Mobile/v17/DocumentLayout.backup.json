@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\viewmodels\\studyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:viewmodels\\studyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -98,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "StudyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\StudyViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudyViewModel.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\StudyViewModel.cs",
+              "RelativeToolTip": "ViewModels\\StudyViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T12:26:25.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DeckDetailsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DeckDetailsPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
               "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
@@ -142,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SearchPage.xaml.cs",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Flashcard.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Flashcard.cs",
               "RelativeDocumentMoniker": "Models\\Flashcard.cs",
@@ -162,12 +179,11 @@
               "RelativeToolTip": "Models\\Flashcard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T08:25:16.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T08:25:16.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FavoritesPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FavoritesPage.xaml",
               "RelativeDocumentMoniker": "Views\\FavoritesPage.xaml",
@@ -179,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DeckFormPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckFormPage.xaml",
               "RelativeDocumentMoniker": "Views\\DeckFormPage.xaml",
@@ -191,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainPageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\MainPageViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
@@ -203,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -215,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Deck.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Deck.cs",
               "RelativeDocumentMoniker": "Models\\Deck.cs",
@@ -227,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
@@ -239,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Colors.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Colors.xaml",
               "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
@@ -251,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml",
@@ -263,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml",
               "RelativeDocumentMoniker": "Views\\SearchPage.xaml",
@@ -275,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AboutPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\AboutPage.xaml",
               "RelativeDocumentMoniker": "Views\\AboutPage.xaml",
@@ -287,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -299,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -311,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FlashcardFormPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FlashcardFormPage.xaml",
               "RelativeDocumentMoniker": "Views\\FlashcardFormPage.xaml",
@@ -323,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DeckStore.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Services\\DeckStore.cs",
               "RelativeDocumentMoniker": "Services\\DeckStore.cs",
@@ -335,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -347,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AboutAssets.txt",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Raw\\AboutAssets.txt",
               "RelativeDocumentMoniker": "Resources\\Raw\\AboutAssets.txt",
@@ -359,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",

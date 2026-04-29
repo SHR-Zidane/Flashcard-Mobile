@@ -59,11 +59,13 @@ public class StudyViewModel : BindableObject
         CorrectCommand = new Command(() =>
         {
             _correctCount++;
+            OnPropertyChanged(nameof(ResultText));
             NextCard();
         });
         IncorrectCommand = new Command(() =>
         {
             _incorrectCount++;
+            OnPropertyChanged(nameof(ResultText));
             NextCard();
         });
         RestartCommand = new Command(() =>
@@ -80,6 +82,7 @@ public class StudyViewModel : BindableObject
         if (_currentIndex >= _studyCards.Count)
         {
             IsStudyComplete = true;
+            OnPropertyChanged(nameof(ResultText));
         }
         else
         {

@@ -29,7 +29,6 @@ public partial class StudyPage : ContentPage
             if (deck.Flashcards.Count == 0)
             {
                 DisplayAlert("Impossible", "Aucune flashcard dans ce deck. Ajoutez des flashcards avant d'étudier.", "OK");
-                Shell.Current.GoToAsync("..");
                 return;
             }
 
