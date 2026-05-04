@@ -1,15 +1,89 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:Flashcard_Mobile.Models"
     x:Class="Flashcard_Mobile.Views.SearchPage"
-    Title="Search"
+    x:Name="SearchPageRoot"
+    Title="Rechercher"
     BackgroundColor="Black">
 
-    <Grid>
-        <Label
-            Text="Search"
-            TextColor="White"
-            VerticalOptions="Center"
-            HorizontalOptions="Center" />
+    <Grid RowDefinitions="Auto,*">
+        <!-- Search Bar -->
+        <SearchBar
+            Grid.Row="0"
+            x:Name="SearchBar"
+            Placeholder="Rechercher un deck..."
+            Text="{Binding SearchText, Mode=TwoWay}"
+            BackgroundColor="#F0F0F0"
+            TextColor="Black"
+            PlaceholderColor="{StaticResource Gray500}"
+            Margin="20,20,20,10" />
+
+        <!-- Results List -->
+        <CollectionView
+            Grid.Row="1"
+            ItemsSource="{Binding SearchResults}"
+            SelectionMode="None"
+            BackgroundColor="Transparent"
+            Margin="20,0,20,20">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Deck">
+                    <Frame
+                        Padding="14"
+                        Margin="0,0,0,14"
+                        BackgroundColor="#F0F0F0"
+                        CornerRadius="8">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={x:Reference SearchPageRoot}, Path=BindingContext.OpenDeckCommand}"
+                                CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+
+                        <VerticalStackLayout Spacing="8">
+                            <Label
+                                Text="{Binding Title}"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                TextColor="Black" />
+
+                            <Label
+                                Text="{Binding ListName}"
+                                FontSize="12"
+                                TextColor="{StaticResource Gray600}" />
+
+                            <Label
+                                Text="{Binding WordsCountText}"
+                                FontSize="12"
+                                TextColor="{StaticResource Gray500}" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <CollectionView.EmptyView>
+                <VerticalStackLayout
+                    VerticalOptions="Center"
+                    Spacing="10">
+                    <Label
+                        Text="🔍"
+                        FontSize="48"
+                        HorizontalOptions="Center" />
+
+                    <Label
+                        Text="Aucun deck trouvé"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        HorizontalOptions="Center" />
+
+                    <Label
+                        Text="Essayez de modifier votre recherche"
+                        FontSize="14"
+                        TextColor="{StaticResource Gray300}"
+                        HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
     </Grid>
 </ContentPage>

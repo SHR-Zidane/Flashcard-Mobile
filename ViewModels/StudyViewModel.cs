@@ -3,6 +3,7 @@ using System.Windows.Input;
 using Microsoft.Maui.Controls;
 using Flashcard_Mobile.Models;
 using Flashcard_Mobile.Services;
+using Microsoft.Maui.Devices.Sensors;
 
 namespace Flashcard_Mobile.ViewModels;
 
