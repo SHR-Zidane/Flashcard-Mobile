@@ -228,6 +228,7 @@ public sealed class DeckStore
             foreach (var deck in _allDecks)
             {
                 deck.Flashcards ??= new List<Flashcard>();
+                deck.WordsCount = deck.Flashcards.Count;
             }
         }
         catch
