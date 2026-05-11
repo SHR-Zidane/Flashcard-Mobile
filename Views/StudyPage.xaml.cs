@@ -42,4 +42,10 @@ public partial class StudyPage : ContentPage
         _viewModel = new StudyViewModel();
         BindingContext = _viewModel;
     }
+    
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        _viewModel.StopMonitoring();
+    }
 }

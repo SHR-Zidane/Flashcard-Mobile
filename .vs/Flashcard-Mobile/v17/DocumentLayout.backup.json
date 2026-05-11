@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\services\\deckstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:services\\deckstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\studypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\studypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\flashcardformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\flashcardformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\deckformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\deckformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\deckdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\deckdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\viewmodels\\deckdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:viewmodels\\deckdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\viewmodels\\studyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:viewmodels\\studyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\deckformpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -39,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,32 +91,12 @@
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\views\\flashcardformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:views\\flashcardformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\services\\deckstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|solutionrelative:services\\deckstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95E4E92E-A948-4E9D-BCF5-8231744CBFC7}|Flashcard-Mobile.csproj|c:\\users\\pd01wvj\\documents\\github\\flashcard-mobile\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -102,15 +118,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\StudyPage.xaml",
+              "RelativeDocumentMoniker": "Views\\StudyPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\StudyPage.xaml",
+              "RelativeToolTip": "Views\\StudyPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T11:35:57.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "DeckFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckFormPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DeckFormPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckFormPage.xaml",
+              "RelativeToolTip": "Views\\DeckFormPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T11:35:31.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeckDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
+              "RelativeToolTip": "Views\\DeckDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T11:35:22.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeckDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\DeckDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DeckDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\DeckDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DeckDetailsViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:35:13.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "StudyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\StudyViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\StudyViewModel.cs",
@@ -118,48 +178,11 @@
               "RelativeToolTip": "ViewModels\\StudyViewModel.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAAAGoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T12:26:25.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T12:26:25.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeckDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml.cs",
-              "RelativeToolTip": "Views\\DeckDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T11:02:46.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeckDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
-              "RelativeToolTip": "Views\\DeckDetailsPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T11:01:56.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T11:01:39.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SearchPage.xaml.cs",
@@ -171,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Flashcard.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Flashcard.cs",
               "RelativeDocumentMoniker": "Models\\Flashcard.cs",
@@ -183,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FavoritesPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FavoritesPage.xaml",
               "RelativeDocumentMoniker": "Views\\FavoritesPage.xaml",
@@ -196,6 +219,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FlashcardFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FlashcardFormPage.xaml",
+              "RelativeDocumentMoniker": "Views\\FlashcardFormPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FlashcardFormPage.xaml",
+              "RelativeToolTip": "Views\\FlashcardFormPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-21T08:26:19.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeckStore.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Services\\DeckStore.cs",
+              "RelativeDocumentMoniker": "Services\\DeckStore.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Services\\DeckStore.cs",
+              "RelativeToolTip": "Services\\DeckStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T11:23:02.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAewB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T13:26:50.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml",
+              "RelativeToolTip": "Views\\SearchPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T13:26:46.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:01:39.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeckDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml",
+              "RelativeToolTip": "Views\\DeckDetailsPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T11:01:56.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeckDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DeckDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckDetailsPage.xaml.cs",
+              "RelativeToolTip": "Views\\DeckDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T11:02:46.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DeckFormPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\DeckFormPage.xaml",
               "RelativeDocumentMoniker": "Views\\DeckFormPage.xaml",
@@ -207,91 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\MainPageViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T11:12:12.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T11:11:52.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Deck.cs",
-              "RelativeDocumentMoniker": "Models\\Deck.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Deck.cs",
-              "RelativeToolTip": "Models\\Deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T11:07:11.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAewB8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T11:05:23.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-01T11:05:17.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\MainPage.xaml",
-              "RelativeToolTip": "Views\\MainPage.xaml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAewB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-25T13:26:50.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SearchPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml",
-              "RelativeDocumentMoniker": "Views\\SearchPage.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\SearchPage.xaml",
-              "RelativeToolTip": "Views\\SearchPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-25T13:26:46.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "AboutPage.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\AboutPage.xaml",
               "RelativeDocumentMoniker": "Views\\AboutPage.xaml",
@@ -303,7 +331,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwDMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:12:12.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:11:52.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Deck.cs",
+              "RelativeDocumentMoniker": "Models\\Deck.cs",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Models\\Deck.cs",
+              "RelativeToolTip": "Models\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:07:11.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T11:05:23.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T11:05:17.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -315,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -327,31 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FlashcardFormPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FlashcardFormPage.xaml",
-              "RelativeDocumentMoniker": "Views\\FlashcardFormPage.xaml",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Views\\FlashcardFormPage.xaml",
-              "RelativeToolTip": "Views\\FlashcardFormPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-21T08:26:19.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DeckStore.cs",
-              "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Services\\DeckStore.cs",
-              "RelativeDocumentMoniker": "Services\\DeckStore.cs",
-              "ToolTip": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Services\\DeckStore.cs",
-              "RelativeToolTip": "Services\\DeckStore.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T11:23:02.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -363,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AboutAssets.txt",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\Resources\\Raw\\AboutAssets.txt",
               "RelativeDocumentMoniker": "Resources\\Raw\\AboutAssets.txt",
@@ -375,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\pd01wvj\\Documents\\Github\\Flashcard-Mobile\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",

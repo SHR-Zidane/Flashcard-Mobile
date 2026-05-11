@@ -10,6 +10,7 @@ namespace Flashcard_Mobile.ViewModels;
 public class StudyViewModel : BindableObject
 {
     private readonly DeckStore _deckStore = DeckStore.Instance;
+    private readonly ShakeDetectionService _shakeDetectionService = new();
     private Deck? _deck;
     private List<Flashcard> _studyCards = new();
     private int _currentIndex = 0;
@@ -17,6 +18,7 @@ public class StudyViewModel : BindableObject
     private int _correctCount = 0;
     private int _incorrectCount = 0;
     private bool _isStudyComplete = false;
+    private Random _random = new();
 
     public ObservableCollection<Flashcard> StudyCards { get; } = new();
     public string CurrentFront => _currentIndex < _studyCards.Count ? _studyCards[_currentIndex].Front : string.Empty;
@@ -75,6 +77,9 @@ public class StudyViewModel : BindableObject
         });
 
         QuitCommand = new Command(async () => await Shell.Current.GoToAsync(".."));
+        
+        // Subscribe to shake detection
+        _shakeDetectionService.ShakeDetected += OnShakeDetected;
     }
 
     private void NextCard()
@@ -92,6 +97,14 @@ public class StudyViewModel : BindableObject
         OnPropertyChanged(nameof(CurrentFront));
         OnPropertyChanged(nameof(CurrentBack));
     }
+    
+    private void OnShakeDetected(object? sender, EventArgs e)
+    {
+        if (!ShowAnswer || IsStudyComplete)
+            return;
+            
+        IncorrectCommand.Execute(null);
+    }
 
     public void StartStudy(Deck? deck)
     {
@@ -107,11 +120,18 @@ public class StudyViewModel : BindableObject
         _incorrectCount = 0;
         _isStudyComplete = false;
         ShowAnswer = false;
+        
+        _shakeDetectionService.StartMonitoring();
 
         OnPropertyChanged(nameof(CurrentFront));
         OnPropertyChanged(nameof(CurrentBack));
         OnPropertyChanged(nameof(ShowFront));
         OnPropertyChanged(nameof(ShowButtons));
         OnPropertyChanged(nameof(ShowResult));
+    }
+    
+    public void StopMonitoring()
+    {
+        _shakeDetectionService.StopMonitoring();
     }
 }
