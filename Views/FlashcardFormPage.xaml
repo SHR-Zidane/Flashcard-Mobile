@@ -9,44 +9,28 @@
         <VerticalStackLayout Padding="20,20,20,30" Spacing="14">
             <Label
                 x:Name="TitleLabel"
-                Text="Create Flashcard"
+                Text="Créer une flashcard"
                 FontSize="24"
                 TextColor="White"
                 Margin="0,0,0,10" />
 
             <Frame BackgroundColor="#F0F0F0" BorderColor="Transparent">
                 <VerticalStackLayout Spacing="14">
-                    <Label Text="Front" FontSize="14" TextColor="Black" />
-                    <Entry x:Name="FrontEntry" Placeholder="Front text" />
+                    <Label Text="Avant" FontSize="14" TextColor="Black" />
+                    <Entry x:Name="FrontEntry" Placeholder="Texte avant" />
 
-                    <Label Text="Back" FontSize="14" TextColor="Black" Margin="0,8,0,0" />
-                    <Entry x:Name="BackEntry" Placeholder="Back text" />
+                    <Label Text="Arrière" FontSize="14" TextColor="Black" Margin="0,8,0,0" />
+                    <Entry x:Name="BackEntry" Placeholder="Texte arrière" />
+                    <Button
+                        x:Name="SaveButton"
+                        Text="Enregistrer"
+                        BackgroundColor="{StaticResource Tertiary}"
+                        TextColor="White"
+                        Clicked="OnSaveClicked" />
                 </VerticalStackLayout>
+
             </Frame>
 
-            <Button
-                x:Name="DeleteButton"
-                Text="Delete"
-                IsVisible="False"
-                BackgroundColor="{StaticResource Tertiary}"
-                TextColor="White"
-                Clicked="OnDeleteClicked" />
-
-            <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
-                <Button
-                    Grid.Column="0"
-                    Text="Cancel"
-                    BackgroundColor="{StaticResource Gray500}"
-                    TextColor="White"
-                    Clicked="OnCancelClicked" />
-                <Button
-                    Grid.Column="1"
-                    x:Name="SaveButton"
-                    Text="Save"
-                    BackgroundColor="{StaticResource Tertiary}"
-                    TextColor="White"
-                    Clicked="OnSaveClicked" />
-            </Grid>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

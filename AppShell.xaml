@@ -7,19 +7,19 @@
     Title="Flashcard_Mobile">
 
     <TabBar>
-        <Tab Title="Home" Icon="home_icon.svg">
+        <Tab Title="Accueil" Icon="home_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
         </Tab>
 
-        <Tab Title="Favorites" Icon="heart_icon.svg">
+        <Tab Title="Favoris" Icon="heart_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate views:FavoritesPage}" />
         </Tab>
 
-        <Tab Title="Search" Icon="search_icon.svg">
+        <Tab Title="Rechercher" Icon="search_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate views:SearchPage}" />
         </Tab>
 
-        <Tab Title="Me" Icon="user_icon.svg">
+        <Tab Title="Profil" Icon="user_icon.svg">
             <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
         </Tab>
     </TabBar>

@@ -8,7 +8,7 @@
     BackgroundColor="Black">
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            Text="Add"
+            Text="Créer un deck"
             Priority="0"
             Order="Primary"
             Command="{Binding AddDeckCommand}" />
@@ -17,7 +17,7 @@
     <Grid RowDefinitions="Auto,*" Padding="20,20,20,0" RowSpacing="16">
         <Label
             Grid.Row="0"
-            Text="Home"
+            Text="Accueil"
             FontSize="20"
             FontAttributes="Bold"
             TextColor="White"

@@ -52,7 +52,7 @@ public partial class FlashcardFormPage : ContentPage
         {
             TitleLabel.Text = "Create Flashcard";
             SaveButton.Text = "Create";
-            DeleteButton.IsVisible = false;
+            //DeleteButton.IsVisible = false;
             FrontEntry.Text = string.Empty;
             BackEntry.Text = string.Empty;
             return;
@@ -60,7 +60,7 @@ public partial class FlashcardFormPage : ContentPage
 
         TitleLabel.Text = "Edit Flashcard";
         SaveButton.Text = "Update";
-        DeleteButton.IsVisible = true;
+        //DeleteButton.IsVisible = true;
         FrontEntry.Text = _currentFlashcard.Front;
         BackEntry.Text = _currentFlashcard.Back;
     }

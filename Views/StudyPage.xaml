@@ -4,16 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Flashcard_Mobile.Views.StudyPage"
     BackgroundColor="Black">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem
-            Text="Quitter"
-            Priority="0"
-            Order="Primary"
-            Command="{Binding QuitCommand}" />
-    </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="*,Auto,Auto" Padding="20">
-        <!-- Card Display -->
         <Frame
             Grid.Row="0"
             BackgroundColor="#F0F0F0"
@@ -21,7 +13,6 @@
             Margin="0,20"
             VerticalOptions="Center">
             <Grid RowDefinitions="*,Auto" VerticalOptions="Center">
-                <!-- Front Side -->
                 <Label
                     Grid.Row="0"
                     x:Name="FrontLabel"
@@ -33,7 +24,6 @@
                     VerticalOptions="Center"
                     IsVisible="{Binding ShowFront}" />
 
-                <!-- Back Side -->
                 <Label
                     Grid.Row="0"
                     x:Name="BackLabel"
@@ -44,7 +34,6 @@
                     VerticalOptions="Center"
                     IsVisible="{Binding ShowAnswer}" />
 
-                <!-- Tap to reveal -->
                 <Label
                     Grid.Row="1"
                     Text="Appuyez pour voir la réponse"
@@ -60,7 +49,6 @@
             </Frame.GestureRecognizers>
         </Frame>
 
-        <!-- Answer Buttons -->
         <Grid
             Grid.Row="1"
             ColumnDefinitions="*,*"
@@ -83,7 +71,6 @@
                 HeightRequest="50" />
         </Grid>
 
-        <!-- Result -->
         <VerticalStackLayout
             Grid.Row="2"
             IsVisible="{Binding ShowResult}"
@@ -94,7 +81,12 @@
                 FontAttributes="Bold"
                 TextColor="White"
                 HorizontalOptions="Center" />
-
+            <Button
+            Text="Quitter"
+            BackgroundColor="{StaticResource Gray600}"
+            TextColor="White"
+            Command="{Binding QuitCommand}" 
+            HeightRequest="50"/>
             <Button
                 Text="Recommencer"
                 BackgroundColor="{StaticResource Tertiary}"

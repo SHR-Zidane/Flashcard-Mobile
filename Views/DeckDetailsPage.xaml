@@ -7,7 +7,7 @@
     BackgroundColor="Black">
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            Text="Add"
+            Text="Ajouter"
             Priority="0"
             Order="Primary"
             Command="{Binding AddFlashcardCommand}" />
@@ -54,13 +54,13 @@
                             </VerticalStackLayout>
                             <VerticalStackLayout Grid.Column="1" Spacing="5">
                                 <Button
-                                    Text="Edit"
-                                    BackgroundColor="{StaticResource Tertiary}"
+                                    Text="Modifier"
+                                    BackgroundColor="{StaticResource Gray600}"
                                     TextColor="White"
                                     Command="{Binding Source={x:Reference FlashcardsView}, Path=BindingContext.EditFlashcardCommand}"
                                     CommandParameter="{Binding .}" />
                                 <Button
-                                    Text="Delete"
+                                    Text="Supprimer"
                                     BackgroundColor="{StaticResource Tertiary}"
                                     TextColor="White"
                                     Command="{Binding Source={x:Reference FlashcardsView}, Path=BindingContext.DeleteFlashcardCommand}"
@@ -72,7 +72,7 @@
             </CollectionView.ItemTemplate>
             <CollectionView.EmptyView>
                 <Label
-                    Text="No flashcards in this deck yet."
+                    Text="Aucune flashcard dans ce deck pour l'instant."
                     TextColor="{StaticResource Gray300}"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />

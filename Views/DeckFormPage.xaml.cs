@@ -38,19 +38,19 @@ public partial class DeckFormPage : ContentPage
         {
             TitleLabel.Text = "Create Deck";
             SaveButton.Text = "Create";
-            DeleteButton.IsVisible = false;
+            //DeleteButton.IsVisible = false;
             NameEntry.Text = string.Empty;
             ListEntry.Text = string.Empty;
-            WordsCountLabel.Text = "0";
+            //WordsCountLabel.Text = "0";
             return;
         }
 
         TitleLabel.Text = "Edit Deck";
         SaveButton.Text = "Update";
-        DeleteButton.IsVisible = true;
+        //DeleteButton.IsVisible = true;
         NameEntry.Text = _currentDeck.Title;
         ListEntry.Text = _currentDeck.ListName;
-        WordsCountLabel.Text = _currentDeck.Flashcards.Count.ToString();
+        //WordsCountLabel.Text = _currentDeck.Flashcards.Count.ToString();
     }
 
     private async void OnCancelClicked(object sender, EventArgs e)
