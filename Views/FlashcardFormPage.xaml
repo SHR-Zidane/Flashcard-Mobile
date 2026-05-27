@@ -9,7 +9,7 @@
         <VerticalStackLayout Padding="20,20,20,30" Spacing="14">
             <Label
                 x:Name="TitleLabel"
-                Text="Créer une flashcard"
+                Text="Creer une flashcard"
                 FontSize="24"
                 TextColor="White"
                 Margin="0,0,0,10" />
@@ -19,8 +19,8 @@
                     <Label Text="Avant" FontSize="14" TextColor="Black" />
                     <Entry x:Name="FrontEntry" Placeholder="Texte avant" />
 
-                    <Label Text="Arrière" FontSize="14" TextColor="Black" Margin="0,8,0,0" />
-                    <Entry x:Name="BackEntry" Placeholder="Texte arrière" />
+                    <Label Text="Arriere" FontSize="14" TextColor="Black" Margin="0,8,0,0" />
+                    <Entry x:Name="BackEntry" Placeholder="Texte arriere" />
                     <Button
                         x:Name="SaveButton"
                         Text="Enregistrer"

@@ -8,7 +8,7 @@
     BackgroundColor="Black">
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            Text="Créer un deck"
+            Text="Creer un deck"
             Priority="0"
             Order="Primary"
             Command="{Binding AddDeckCommand}" />

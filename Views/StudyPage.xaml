@@ -5,9 +5,14 @@
     x:Class="Flashcard_Mobile.Views.StudyPage"
     BackgroundColor="Black">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Arrêter" Command="{Binding QuitCommand}" />
+    </ContentPage.ToolbarItems>
+
     <Grid RowDefinitions="*,Auto,Auto" Padding="20">
         <Frame
             Grid.Row="0"
+            x:Name="CardFrame"
             BackgroundColor="#F0F0F0"
             CornerRadius="10"
             Margin="0,20"
@@ -21,8 +26,7 @@
                     FontAttributes="Bold"
                     TextColor="Black"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    IsVisible="{Binding ShowFront}" />
+                    VerticalOptions="Center" />
 
                 <Label
                     Grid.Row="0"
@@ -32,16 +36,16 @@
                     TextColor="{StaticResource Gray600}"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    IsVisible="{Binding ShowAnswer}" />
+                    IsVisible="False" />
 
                 <Label
                     Grid.Row="1"
-                    Text="Appuyez pour voir la réponse"
+                    x:Name="HintLabel"
+                    Text="Appuyez pour voir la reponse"
                     FontSize="14"
                     TextColor="{StaticResource Gray500}"
                     HorizontalOptions="Center"
-                    Margin="0,10,0,0"
-                    IsVisible="{Binding ShowFront}" />
+                    Margin="0,10,0,0" />
             </Grid>
 
             <Frame.GestureRecognizers>
@@ -74,19 +78,41 @@
         <VerticalStackLayout
             Grid.Row="2"
             IsVisible="{Binding ShowResult}"
-            Spacing="20">
+            Spacing="8">
             <Label
-                Text="{Binding ResultText}"
-                FontSize="20"
+                Text="Résumé de la session"
+                FontSize="22"
                 FontAttributes="Bold"
                 TextColor="White"
+                HorizontalOptions="Center"
+                Margin="0,0,0,10" />
+            <Label
+                Text="{Binding TimeSpentText}"
+                FontSize="16"
+                TextColor="White"
                 HorizontalOptions="Center" />
+            <Label
+                Text="{Binding HardestCardText}"
+                FontSize="16"
+                TextColor="White"
+                HorizontalOptions="Center" />
+            <Label
+                Text="{Binding FullyKnownText}"
+                FontSize="16"
+                TextColor="White"
+                HorizontalOptions="Center" />
+            <Label
+                Text="{Binding MemorizationText}"
+                FontSize="16"
+                TextColor="#4CAF50"
+                HorizontalOptions="Center"
+                Margin="0,5,0,0" />
             <Button
-            Text="Quitter"
-            BackgroundColor="{StaticResource Gray600}"
-            TextColor="White"
-            Command="{Binding QuitCommand}" 
-            HeightRequest="50"/>
+                Text="Quitter"
+                BackgroundColor="{StaticResource Gray600}"
+                TextColor="White"
+                Command="{Binding QuitCommand}"
+                HeightRequest="50" />
             <Button
                 Text="Recommencer"
                 BackgroundColor="{StaticResource Tertiary}"

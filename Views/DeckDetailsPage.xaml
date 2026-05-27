@@ -12,7 +12,7 @@
             Order="Primary"
             Command="{Binding AddFlashcardCommand}" />
         <ToolbarItem
-            Text="Étudier"
+            Text="Etudier"
             Priority="1"
             Order="Primary"
             Command="{Binding StudyCommand}" />
